@@ -1,11 +1,13 @@
+/* body */
 body{
 	padding-top: 50px;
 }
-
+/* Background image */
 #headerWrapper{
 	position: relative;
 	padding: 0;
 	margin: 0;
+	/* Hides everything on top of that */
 	overflow: hidden;
 	height: 600px;
 	background-image: url(../images/headerlogo/background.png); 
@@ -16,3 +18,72 @@ body{
 	/* Doesn't move the background image when scrolled */
 	background-attachment: fixed;     
 }
+
+/* Logo */
+#logotext{
+	position: absolute;
+	width: 100%;
+	height: 180px;
+	background-image: url(../images/headerlogo/text.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70% 180px;
+	top: 50%;
+	margin-top: -90px;
+}
+
+/* Sharp flower on the right bottom */
+#fore-flower{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/headerlogo/fore-flower.png);
+	background-size: auto 400px;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	top:525px;
+	right: -50px;
+}
+
+/* Blurred flower on the left bottom */
+#back-flower{
+	position: absolute;
+	width: 100%;
+	height: 350px;
+	background-image: url(../images/headerlogo/back-flower.png);
+	/*              width height */
+	background-size: auto 350px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	top:400px;
+	left: -25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
