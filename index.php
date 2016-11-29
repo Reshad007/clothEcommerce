@@ -2,11 +2,8 @@
 	include 'includes/head.php'; 
 	include 'includes/navigation.php';
 	include 'includes/headerfull.php';
+	include 'includes/leftbar.php';
 ?>
-
-
-	<!-- Left Side Bar -->
-	<div class="col-md-2">Left Side Bar</div>
 
 	<!-- Main Content -->
 	<div class="col-md-8">
@@ -89,91 +86,12 @@
 		</div>
 	</div>
 
-	<!-- Right Side Bar -->
-	<div class="col-md-2">Right Side Bar</div>
-</div>
+<?php 
+	include 'includes/detailsmodal.php';
+	include 'includes/rightbar.php';
+	include 'includes/footer.php';
+ ?>
 
-<!-- Footer -->
-<footer class="text-center" id="footer" >&copy; Copyrigt 2013-2015 Shaunta's Boutique</footer>
-
-<!-- Details Modal -->
-<div class="modal fade details-1" id="details-1" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button class="close" type="button" data-dismiss="modal" aria-label="close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-				<h4 class="modal-title text-center">levis Jeans</h4>
-			</div>
-			<div class="modal-body">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="center-block">
-								<img src="images/products/men4.png" alt="Levis Jeans" class="details img-responsive">
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<h4>Details</h4>
-							<p>This jeans are amazing! They are straight leg, fit great and look sexy. Get a pair while last</p>	
-							<hr>
-							<p>Price: 34.99</p>
-							<p>Brand: Levis</p>
-							<form action="add-cart.php" method="post">
-								<div class="form-group">
-									<div class="col-xs-3">
-										<label for="quantity">Quantity:</label>
-										<input type="text" class="form-control" id="quantity" name="quantity">
-									</div>
-									<p>Available: 3</p>
-								</div><br><br>
-								<div class="form-group">
-									<label for="size">Size:</label>
-									<select name="size" id="size" class="form-control">
-										<option value=""></option>
-										<option value="28">28</option>
-										<option value="32">32</option>
-										<option value="36">36</option>
-									</select>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal-footer">
-				<button class="btn btn-default" data-dismiss="modal">Close</button>
-				<!-- Submit Button -->
-				<button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</button>
-			</div>
-		</div>
-	</div>
-</div>	
-
-<script>
-	jQuery(window).scroll(function(){
-		// Adds scroll animation to logo
-		var vscroll = jQuery(this).scrollTop();
-		jQuery('#logotext').css({
-			"transform" : "translate(0px, "+vscroll/2+"px)"
-		});
-
-		// Adds scroll animation to blurry flower
-		var vscroll = jQuery(this).scrollTop();
-		jQuery('#back-flower').css({
-			"transform" : "translate("+vscroll/5+"px, "+vscroll/12+"px)"
-		});
-
-		// Adds scroll animation to sharp flower
-		var vscroll = jQuery(this).scrollTop();
-		jQuery('#fore-flower').css({
-			"transform" : "translate(0px, -"+vscroll/2+"px)"
-		});
-	});
-</script>		
-</body>
-</html>
 
 
 
