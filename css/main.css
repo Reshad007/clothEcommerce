@@ -68,6 +68,11 @@ body{
 	margin-top: 50px;
 }
 
+/*All the images with the class details*/
+img.details{
+	width: 33%;
+	margin: 15px auto;
+}
 
 
 

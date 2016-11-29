@@ -170,7 +170,24 @@
 							<hr>
 							<p>Price: 34.99</p>
 							<p>Brand: Levis</p>
-
+							<form action="add-cart.php" method="post">
+								<div class="form-group">
+									<div class="col-xs-3">
+										<label for="quantity">Quantity:</label>
+										<input type="text" class="form-control" id="quantity" name="quantity">
+									</div>
+									<p>Available: 3</p>
+								</div><br><br>
+								<div class="form-group">
+									<label for="size">Size:</label>
+									<select name="size" id="size" class="form-control">
+										<option value=""></option>
+										<option value="28">28</option>
+										<option value="32">32</option>
+										<option value="36">36</option>
+									</select>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
