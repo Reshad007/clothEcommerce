@@ -59,6 +59,14 @@ body{
 	left: -25px;
 }
 
+.img-thumb{
+	width: auto;
+	height: 200px;
+}
+
+#footer{
+	margin-top: 50px;
+}
 
 
 

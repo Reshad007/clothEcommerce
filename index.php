@@ -18,111 +18,193 @@
 
 <body>
 
-	<!-- Navbar starts here -->
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<!-- Container starts here -->
-		<div class="container">
-			<!-- Adds home button to the main page -->
-			<a href="index.php" class="navbar-brand">Shaunta's Boutiqe</a>
-			<!-- Navigation bar starts here -->
-			<ul class="nav navbar-nav">
-				<!-- Drop down menue starts here -->
-				<li class="dropdown">
-					<!-- Dropdown menue button --> 								   <!-- Sign after "menue" -->
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Shirts</a></li>
-						<li><a href="#">Pants</a></li>
-						<li><a href="#">Shoes</a></li>
-						<li><a href="#">Accessories</a></li>
-					</ul>
-				<!-- Drop down menue finishes here -->	
-				</li>
-			<!-- Navigation bar finishes here -->	
-			</ul>
-		</div>
-		<!-- container finishes here -->
-	</nav>
-	<!-- Navbar finishes here -->
+<!-- Navbar starts here -->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<!-- Container starts here -->
+	<div class="container">
+		<!-- Adds home button to the main page -->
+		<a href="index.php" class="navbar-brand">Shaunta's Boutiqe</a>
+		<!-- Navigation bar starts here -->
+		<ul class="nav navbar-nav">
+			<!-- Drop down menue starts here -->
+			<li class="dropdown">
+				<!-- Dropdown menue button --> 								   <!-- Sign after "menue" -->
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">Shirts</a></li>
+					<li><a href="#">Pants</a></li>
+					<li><a href="#">Shoes</a></li>
+					<li><a href="#">Accessories</a></li>
+				</ul>
+			<!-- Drop down menue finishes here -->	
+			</li>
+		<!-- Navigation bar finishes here -->	
+		</ul>
+	</div>
+	<!-- container finishes here -->
+</nav>
+<!-- Navbar finishes here -->
 
-	
-	<!-- Header -->
-	<div id="headerWrapper">
-		<div id="back-flower"></div>
-		<div id="logotext"></div>
-		<div id="fore-flower"></div>
+
+<!-- Header -->
+<div id="headerWrapper">
+	<div id="back-flower"></div>
+	<div id="logotext"></div>
+	<div id="fore-flower"></div>
+</div>
+
+<!-- Content -->
+<div class="container-fluid">
+	<!-- Left Side Bar -->
+	<div class="col-md-2">Left Side Bar</div>
+
+	<!-- Main Content -->
+	<div class="col-md-8">
+		<div class="row">
+			<h2 class="text-center">Feature Products</h2>
+
+			<div class="col-md-3">
+				<h4>Levis Jeans</h4>
+				<img src="images/products/men4.png" alt="Levis Jeans" class="img-thumb"/>
+				<p class="list-price text-danger">List Price: <s>54.99</s></p>
+				<p class="price">Our Price: $19.99</p>
+				<button type="button" class="btn btn-sm btn-success" data-toggle="modal" 
+				data-target="#details-1">Details</button>
+			</div>
+
+			<div class="col-md-3">
+				<h4>Women's Shirt</h4>
+				<img src="images/products/women7.png" alt="Women's Shirt" class="img-thumb"/>
+				<p class="list-price text-danger">List Price: <s>45.99</s></p>
+				<p class="price">Our Price: $38.99</p>
+				<button type="button" class="btn btn-sm btn-success" data-toggle="modal" 
+				data-target="#details-1">Details</button>
+			</div>
+
+			<div class="col-md-3">
+				<h4>Hollister Shirt</h4>
+				<img src="images/products/men1.png" alt="Hollister Shirt" class="img-thumb"/>
+				<p class="list-price text-danger">List Price: <s>25.99</s></p>
+				<p class="price">Our Price: $19.99</p>
+				<button type="button" class="btn btn-sm btn-success" data-toggle="modal" 
+				data-target="#details-1">Details</button>
+			</div>	
+			
+			<div>
+				<div class="col-md-3">
+				<h4>Fancy Shoes</h4>
+				<img src="images/products/women6.png" alt="Fancy Shoes" class="img-thumb"/>
+				<p class="list-price text-danger">List Price: <s>69.99</s></p>
+				<p class="price">Our Price: $49.99</p>
+				<button type="button" class="btn btn-sm btn-success" data-toggle="modal" 
+				data-target="#details-1">Details</button>
+			</div>
+
+			<div class="col-md-3">
+				<h4>Boys Hoodie</h4>
+				<img src="images/products/boys1.png" alt="Boys Hoodie" class="img-thumb"/>
+				<p class="list-price text-danger">List Price: <s>24.99</s></p>
+				<p class="price">Our Price: $18.99</p>
+				<button type="button" class="btn btn-sm btn-success" data-toggle="modal" 
+				data-target="#details-1">Details</button>
+			</div>
+
+			<div class="col-md-3">
+				<h4>Girls Dress</h4>
+				<img src="images/products/girls3.png" alt="Girls Dress" class="img-thumb"/>
+				<p class="list-price text-danger">List Price: <s>54.99</s></p>
+				<p class="price">Our Price: $19.99</p>
+				<button type="button" class="btn btn-sm btn-success" data-toggle="modal" 
+				data-target="#details-1">Details</button>
+			</div>
+
+			<div class="col-md-3">
+				<h4>Women's Skirt</h4>
+				<img src="images/products/women3.png" alt="Women's Skirt" class="img-thumb"/>
+				<p class="list-price text-danger">List Price: <s>29.99</s></p>
+				<p class="price">Our Price: $17.99</p>
+				<button type="button" class="btn btn-sm btn-success" data-toggle="modal" 
+				data-target="#details-1">Details</button>
+			</div>
+
+			<div class="col-md-3">
+				<h4>Purse</h4>
+				<img src="images/products/women5.png" alt="Purse" class="img-thumb"/>
+				<p class="list-price text-danger">List Price: <s>49.99</s></p>
+				<p class="price">Our Price: $39.99</p>
+				<button type="button" class="btn btn-sm btn-success" data-toggle="modal" 
+				data-target="#details-1">Details</button>
+			</div>
+			</div>
+		</div>
 	</div>
 
-		<p>
-			What is Lorem Ipsum?
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	<!-- Right Side Bar -->
+	<div class="col-md-2">Right Side Bar</div>
+</div>
 
-			Why do we use it?
-			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+<!-- Footer -->
+<footer class="text-center" id="footer" >&copy; Copyrigt 2013-2015 Shaunta's Boutique</footer>
 
+<!-- Details Modal -->
+<div class="modal fade details-1" id="details-1" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" type="button" data-dismiss="modal" aria-label="close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<h4 class="modal-title text-center">levis Jeans</h4>
+			</div>
+			<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="center-block">
+								<img src="images/products/men4.png" alt="Levis Jeans" class="details img-responsive">
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<h4>Details</h4>
+							<p>This jeans are amazing! They are straight leg, fit great and look sexy. Get a pair while last</p>	
+							<hr>
+							<p>Price: 34.99</p>
+							<p>Brand: Levis</p>
 
-			Where does it come from?
-			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal">Close</button>
+				<!-- Submit Button -->
+				<button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</button>
+			</div>
+		</div>
+	</div>
+</div>	
 
-			The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-			Where can I get some?
-			There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-		</p>
-		<p>
-			What is Lorem Ipsum?
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-			Why do we use it?
-			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-			Where does it come from?
-			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-			The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-			Where can I get some?
-			There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-		</p>
-		<p>
-			What is Lorem Ipsum?
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-			Why do we use it?
-			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-			Where does it come from?
-			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-			The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-			Where can I get some?
-			There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-		</p>
-
-	<script>
-		jQuery(window).scroll(function(){
-			// Adds scroll animation to logo
-			var vscroll = jQuery(this).scrollTop();
-			jQuery('#logotext').css({
-				"transform" : "translate(0px, "+vscroll/2+"px)"
-			});
-
-			// Adds scroll animation to blurry flower
-			var vscroll = jQuery(this).scrollTop();
-			jQuery('#back-flower').css({
-				"transform" : "translate("+vscroll/5+"px, "+vscroll/12+"px)"
-			});
-
-			// Adds scroll animation to sharp flower
-			var vscroll = jQuery(this).scrollTop();
-			jQuery('#fore-flower').css({
-				"transform" : "translate(0px, -"+vscroll/2+"px)"
-			});
+<script>
+	jQuery(window).scroll(function(){
+		// Adds scroll animation to logo
+		var vscroll = jQuery(this).scrollTop();
+		jQuery('#logotext').css({
+			"transform" : "translate(0px, "+vscroll/2+"px)"
 		});
-	</script>		
+
+		// Adds scroll animation to blurry flower
+		var vscroll = jQuery(this).scrollTop();
+		jQuery('#back-flower').css({
+			"transform" : "translate("+vscroll/5+"px, "+vscroll/12+"px)"
+		});
+
+		// Adds scroll animation to sharp flower
+		var vscroll = jQuery(this).scrollTop();
+		jQuery('#fore-flower').css({
+			"transform" : "translate(0px, -"+vscroll/2+"px)"
+		});
+	});
+</script>		
 </body>
 </html>
 
