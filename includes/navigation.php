@@ -29,7 +29,7 @@
 
 			<!-- Menue Items-->
 			<li class="dropdown">
-				<!-- Dropdown menue button --> 								   <!-- Sign after "menue" -->
+				<!-- Dropdown menue button --> 								   								 <!-- Sign after "menue" -->
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $parent['category']; ?><span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
 					<?php while ($child = mysqli_fetch_assoc($cquery)) :  ?>
