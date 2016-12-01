@@ -1,6 +1,18 @@
+
+
+
+
 <?php 
     //                    host ip    username  pw  name of db 
-	$db = mysqli_connect('127.0.0.1','root',   '', 'clothEcommerce');
+	/*$db = mysqli_connect('127.0.0.1','root',   '', 'clothEcommerce');*/
+	$host_name  = "db646482344.db.1and1.com";
+    $database   = "db646482344";
+    $user_name  = "dbo646482344";
+    $password   = "ufobed88ufobed88";
+
+
+    $db = mysqli_connect($host_name, $user_name, $password, $database);
+
 	if (mysqli_connect_errno()) {
 		echo "Data base connection failed with following errors: ".mysqli_connect_error();
 		die();
