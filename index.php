@@ -37,6 +37,8 @@
 		</div>
 	</div>
 
+	<!-- Image displayed dinamicly through database -->
+
 <?php 
 	include 'includes/detailsmodal.php';
 	include 'includes/rightbar.php';
