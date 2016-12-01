@@ -37,7 +37,7 @@
 		</div>
 	</div>
 
-	<!-- Image displayed dinamicly through database -->
+	<!-- I'm in onlineVersion Branch -->
 
 <?php 
 	include 'includes/detailsmodal.php';
