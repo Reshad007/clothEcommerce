@@ -1,0 +1,6 @@
+</div><br><br>
+<!-- Footer -->
+<footer class="text-center" id="footer" >&copy; Copyrigt 2013-2015 Shaunta's Boutique</footer>
+	
+</body>
+</html>
