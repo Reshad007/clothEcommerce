@@ -23,6 +23,24 @@
 			"transform" : "translate(0px, -"+vscroll/2+"px)"
 		});
 	});
+
+	function detailsmodal(id){
+		var data = {"id" : id};
+		jQuery.ajax({
+			url : '/clothEcommerce/includes/detailsmodal.php',
+			method : "post",
+			data : data,
+			success : function(data){
+				// Adds HTML from detailsmodal.php
+				jQuery('body').append(data);
+				// Opens and Closes that window using jQuery toggle 
+				jQuery('#details-modal').modal('toggle');
+			},
+			error : function(){
+				alert("something went wrong!");
+			} 
+		});
+	}
 </script>		
 </body>
 </html>

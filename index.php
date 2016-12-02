@@ -28,8 +28,7 @@
 					<!-- Price is displayed dinamicly through database -->
 					<p class="price">Our Price: $<?php echo $product['price']; ?></p>
 					<!-- Details button -->
-					<button type="button" class="btn btn-sm btn-success" data-toggle="modal" 
-					data-target="#details-1">Details</button>
+					<button type="button" class="btn btn-sm btn-success" onclick="detailsmodal(<?php echo $product['id']; ?>)">Details</button>
 				</div>
 
 			<?php endwhile; ?>
@@ -37,8 +36,8 @@
 		</div>
 	</div>
 
+<!-- I'm on master branch -->
 <?php 
-	include 'includes/detailsmodal.php';
 	include 'includes/rightbar.php';
 	include 'includes/footer.php';
  ?>
