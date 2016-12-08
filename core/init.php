@@ -10,5 +10,5 @@
 //     Constant       assigning to 
 //define('BASEURL', '/clothEcommerce/'); // In online world we need to use (__FILE__) instead of /clothEcommerce/
 
-require_once '../config.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/clothEcommerce/config.php';
 require_once BASEURL.'helpers/helpers.php';	
