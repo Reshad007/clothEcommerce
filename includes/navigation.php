@@ -22,7 +22,7 @@
 			<!-- Loops through categories and displays all parent categories -->
 			<?php while ($parent = mysqli_fetch_assoc($pquery)) :  ?>
 				<?php $parent_id = $parent['id']; 
-
+				"<span class='glyphicon glyphicon-align-justify'> ldflfvdf</span>";
 				$sql2 = "SELECT * FROM categories WHERE parent = '$parent_id'";
 				$cquery = $db->query($sql2);
 				?>

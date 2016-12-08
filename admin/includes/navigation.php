@@ -9,6 +9,7 @@
 
 			<!-- Menue Items-->
 			<li><a href="brands.php">Brands</a></li>
+			<li><a href="categories.php">Categories</a></li>
 			<!-- <li class="dropdown">
 				<ul class="dropdown-menu" role="menu">
 					<li><a href="#"><?php echo $child['category']; ?></a></li>	
