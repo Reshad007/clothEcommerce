@@ -3,6 +3,16 @@
 <footer class="text-center" id="footer" >&copy; Copyrigt 2013-2015 Shaunta's Boutique</footer>
 
 <script>
+function updateSizes(){
+	var sizeString = '';
+	for (var i=1;i<=12;i++) {
+	 if (jQuery('#size'+i).val() != '') {
+	 	sizeString += jQuery('#size'+i).val()+':'+jQuery('#qty'+i).val()+',';
+	 }
+	}
+	jQuery('#sizes').val(sizeString);
+}
+
 function get_child_options(){
 	var parentID = jQuery('#parent').val();
 	jQuery.ajax({
